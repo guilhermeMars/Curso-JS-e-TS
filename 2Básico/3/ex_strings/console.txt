@@ -1,0 +1,8 @@
+document.body.innerHTML
+"TextoBanana"
+document.body.innerHTML = "mudando o texto"
+"mudando o texto"
+document.body.innerHTML += " Adicionei um texto"
+"mudando o texto Adicionei um texto"
+document.body.innerHTML += " <br>Adicionei um texto em outra linha"
+"mudando o texto Adicionei um texto <br>Adicionei um texto em outra linha"

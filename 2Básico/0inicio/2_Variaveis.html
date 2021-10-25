@@ -1,0 +1,73 @@
+<script>
+    //Tipos de variáveis - var, let, const
+    
+    var clima = "Quente"
+    clima = "Frio"
+    console.log(clima)
+
+    //Tipos dinâmicos
+        /*
+        JS
+            - Linguagem fracamente tipada e dinâmica
+                * Não precisa colocar o tipo da variável
+        */
+
+    //Scope e var
+        /*
+        Escopo determina a visibilidade de uma variável
+        Block Statement
+            - Declaração de bloco
+            Ex:
+            { - inicio do bloco
+                - dentro do bloco
+            } - fechamento do bloco
+        
+        var - Global e pode funcionar em qualquer escopo do projeto
+        hoisting - quando o programa é iniciado, a declaração da var é colocado no início do programa, contudo, a atribuição de valores persiste nas devidas partes
+        */
+        console.log("Existe x antes do bloco? ", x)
+        
+        {
+            var x = 0
+        }
+
+        console.log("Existe x depois do bloco? ", x)
+    
+    //Scope let e const
+    /*
+        const e let - Locais e só funcionam no escopo ende foram criadas
+        Podem ser criadas com o mesmo nome, mas em scopos diferentes.
+        O valor de let pode ser alterado independente de estar em um outro escopo ou não
+    */
+        console.log("Existe y antes e fora do bloco? ", x)
+        
+        {
+            console.log("Existe y antes? ", x)
+            let y = 0
+            console.log("Existe y depois? ", x)
+        }
+
+        console.log("Existe y depois do bloco? ", x)
+        //(leia os erros)
+    
+    //Nomeando variáveis
+    /*
+        JS é case-sensitive (Maiúsculas e minúsculas são diferentes)
+        JS aceita caracteres Unicode (Aspas, acentuações etc)
+
+        Possível:
+            - Iniciar com caracteres especiais
+            - Iniciar com letras
+            - Colocar números 
+            - Case sensitive
+        Não possível:
+            - Iniciar com números
+            - Colocar espaços vazios
+        Ideal:
+            - Nomes que façam sentido
+            - Que explique a variável ou o que ela faz
+            - camelCase - No lugar do espaço, colocar a prox letra maiúscula (meuNomeGuilherme)
+            - snake_case - Underline
+            - Escrever em inglês
+    */
+</script>

@@ -1,0 +1,11 @@
+NodeJs - não carrega algumas coisas que funcionam no navegador (como alert)
+
+ECMAScript - Padronização do JS, possui diversas versões
+
+Ctrl + u (navegador) - abre o código fonte
+
+Aperadores
+    + - Pode ser utilizado tanto para soma como para concatenação (usando aspas)
+    ** - Faz a potenciação
+    ++ - Aumenta em 1, pode ser utilizado antes e depois da variável, dependendo ele primeiro executa e depois incrementa ou vice-versa
+    Number(numero) - converte para um num // também existe parseInt e parseFloat
